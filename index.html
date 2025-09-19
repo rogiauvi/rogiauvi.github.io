@@ -1,107 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mavi Tech - Professional Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>My Portfolio</h1>
+      <div class="header-content">
+        <h1>Mavi Tech</h1>
+        <button class="mobile-menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Rogi Auvi,
-            I am a passionate and dedicated educator in the field of Software Engineering, currently teaching at SMKN 4 Payakumbuh. With a rich background and extensive experience in web development, Android application development, augmented reality (AR), and game design, I strive to inspire and mentor the next generation of tech innovators.
-            
-            As an educator, I believe in the power of hands-on learning and real-world applications. My classes are designed to not only impart technical knowledge but also to foster creativity, critical thinking, and problem-solving skills. I am committed to equipping my students with the tools and mindset they need to thrive in the ever-evolving landscape of technology.
-            
-            Over the years, I have had the privilege of working on numerous projects that span across various domains, from developing sleek and responsive websites to creating immersive AR experiences and engaging mobile apps. These projects not only reflect my technical expertise but also my passion for pushing the boundaries of what technology can achieve.
-            
-            When I'm not teaching or working on a project, you can find me exploring the latest trends in technology, attending workshops, and collaborating with fellow educators and industry professionals. My goal is to continuously learn and grow, so I can bring fresh and innovative ideas to my students and the tech community.
-            
-            Thank you for visiting my portfolio. Feel free to explore my projects and get in touch if you have any questions or would like to collaborate!</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project">
-                <h3>Aplikasi Android Bahasa Isyarat</h3>
-                <p>Sebuah aplikasi untuk mempelajari bahasa isyarat.</p>
-                <a href="projects/project.html">View Details</a>
 
-            </div>
-            <div class="project">
-                <h3>Aplikasi Android Edutainment</h3>
-                <p>Aplikasi edukasi yang menyenangkan untuk anak-anak.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Aplikasi Android Media PKPJ</h3>
-                <p>Aplikasi media untuk organisasi PKPJ.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Aplikasi Bahasa Isyarat VR Cardboard</h3>
-                <p>Aplikasi VR untuk belajar bahasa isyarat menggunakan Google Cardboard.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Aplikasi Notifikasi Ancaman Server</h3>
-                <p>Aplikasi yang memberikan notifikasi ancaman pada server.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Web Blogpost Laravel</h3>
-                <p>Sebuah platform blog yang dibangun dengan Laravel.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Buku-backend Node.js</h3>
-                <p>Backend untuk aplikasi buku yang dibuat menggunakan Node.js.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Restaurant-apps-backend Node.js</h3>
-                <p>Backend untuk aplikasi restoran yang dibuat menggunakan Node.js.</p>
-                <a href="projects/project.html">View Details</a>
-
-            </div>
-            <div class="project">
-                <h3>Todolist Backend-Frontend</h3>
-                <p>Aplikasi To-Do List dengan backend dan frontend.</p>
-                <a href="projects/project.html">View Details</a>
-            </div>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Innovating Education Through Technology</h1>
+        <p class="hero-subtitle">Transforming Ideas into Digital Reality</p>
+        <div class="hero-cta">
+          <a href="#services" class="cta-button primary">Explore Services</a>
+          <a href="#projects" class="cta-button secondary">View Projects</a>
         </div>
+      </div>
     </section>
-    
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🎓</div>
+          <h3>Software Engineering Education</h3>
+          <p>
+            Expert-led training and mentorship in modern software development
+            practices.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>
+            Creating responsive and dynamic web applications using cutting-edge
+            technologies.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Mobile App Development</h3>
+          <p>
+            Building innovative Android applications with focus on user
+            experience.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🕶️</div>
+          <h3>AR/VR Solutions</h3>
+          <p>Developing immersive augmented and virtual reality experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Rogi Auvi, I am a passionate and dedicated educator in the
+        field of Software Engineering, currently teaching at SMKN 4 Payakumbuh.
+        With a rich background and extensive experience in web development,
+        Android application development, augmented reality (AR), and game
+        design, I strive to inspire and mentor the next generation of tech
+        innovators. As an educator, I believe in the power of hands-on learning
+        and real-world applications. My classes are designed to not only impart
+        technical knowledge but also to foster creativity, critical thinking,
+        and problem-solving skills. Over the years, I have had the privilege of
+        working on numerous projects that span across various domains, from
+        developing sleek and responsive websites to creating immersive AR
+        experiences and engaging mobile apps.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Wedding Invitations Management</h3>
+          <p>
+            Sistem manajemen undangan pernikahan digital dengan fitur RSVP dan
+            personalisasi.
+          </p>
+        </div>
+        <div class="project">
+          <h3>E-Kantin</h3>
+          <p>
+            Platform pemesanan makanan digital untuk kantin sekolah dengan
+            sistem pembayaran terintegrasi.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Web Sekolah</h3>
+          <p>
+            Website institusi pendidikan dengan sistem informasi akademik dan
+            manajemen konten.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Café Management System</h3>
+          <p>
+            Sistem pengelolaan café modern dengan fitur POS, inventori, dan
+            analitik bisnis.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Aplikasi Android Bahasa Isyarat</h3>
+          <p>
+            Aplikasi untuk mempelajari bahasa isyarat dengan pendekatan
+            interaktif.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Aplikasi Android Media PKPJ</h3>
+          <p>
+            Aplikasi media untuk organisasi PKPJ dengan fitur manajemen konten
+            dan notifikasi.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Aplikasi Notifikasi Ancaman Server</h3>
+          <p>
+            Aplikasi monitoring keamanan server dengan sistem notifikasi
+            real-time.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Web Blogpost Laravel</h3>
+          <p>
+            Platform blog modern yang dibangun dengan Laravel, mendukung konten
+            multimedia.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Restaurant-apps-backend Node.js</h3>
+          <p>
+            Backend untuk aplikasi restoran dengan fitur order dan inventory
+            management.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me through the following platforms:</p>
-        <ul class="contact-list">
-            <li><a href="https://github.com/rogiauvi" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/rogi-auvi-885503194/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/rogi.auvi/" target="_blank">Instagram</a></li>
-        </ul>
+      <h2>Contact Me</h2>
+      <p>You can reach me through the following platforms:</p>
+      <ul class="contact-list">
+        <li>
+          <a href="https://github.com/rogiauvi" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rogi-auvi-885503194/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/rogi.auvi/" target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://wa.me/6282391115649"
+            target="_blank"
+            class="whatsapp-button"
+            >WhatsApp</a
+          >
+        </li>
+      </ul>
     </section>
-    
+
     <footer>
-        <p>&copy; 2025 Mavi. All rights reserved.</p>
+      <p>&copy; 2025 Mavi Tech. All rights reserved.</p>
     </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
